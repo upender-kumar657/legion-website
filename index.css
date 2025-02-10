@@ -1,0 +1,214 @@
+*{
+    background-color: rgb(236, 14, 14);
+   
+}
+
+
+.card{
+    width: 5.9375rem;
+    height: 7rem;
+    border: 2px solid #c9caca;
+    border-radius: 12px;
+    margin-top: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.card-logo{
+    width: 5.9375rem;
+    height: 5rem;
+    background-color: black;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-logo-img{
+    width: 3rem;
+    height: 3rem;
+    background-image: url(next-img.png);
+    background-size: cover;
+    background-position: center;
+   
+}
+.logo-name{
+    width: 5.9375rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #cacbcb , #7f7f7f);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border: 0.5px solid #c9caca;
+  
+}
+.logo-name-content{
+   
+    color: #fdfdfd;
+    background-image: linear-gradient(to right, #cacbcb , #9b9b9b);
+    font-size: 15px;
+    font-weight: 550;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+
+}
+
+
+
+
+
+
+
+
+
+.project{
+    height:17.7rem ;
+    width:20.125rem ;
+    border: 2px solid #4c4c4c;
+    margin-top: 4rem;
+    border-radius: 12px;
+    position: relative;
+   
+}
+.hypedrop-img{
+    height:11.5rem ;
+    width:17.4rem ;
+    
+    position: absolute;
+    z-index: -1;
+    left: 1.2rem;
+    top: 1.55rem;
+    background-image: url(hypedropimg.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 10px;
+   transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+}
+.project:hover .hypedrop-img{
+    z-index: 1;
+   
+   
+    
+}
+
+.hypedrop{
+    height:12.5rem ;
+    width:19rem ;
+    background-image: linear-gradient(to right,#366f98,#69b9ed);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.7rem;
+    border-radius: 10px;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+
+}
+.hype-content{
+    text-align: center;
+    background-image: linear-gradient(to right,#367ba6,#62afe2);
+}
+.hype{
+    background-image: linear-gradient(to right,#367ba6,#62afe2);
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height:0.1;
+}
+.clone{
+    background-image: linear-gradient(to right,#367ba6,#62afe2);
+    font-size: 0.6rem;
+    margin-top: -0.7rem;
+}
+.clone-size{
+    color: #8f8f90;
+    font-size: 12px;
+    padding-left: 0.8rem;
+   width: 60%;
+   
+}
+.hype-textsize{
+    font-size: 15px;
+    font-weight: 800;
+    color: #fefefe;
+    padding-left: 0.8rem;
+   line-height: 0.5;
+}
+
+
+.link-color{
+    background-color:#1e97dd ;
+    font-size: 12px;
+}
+
+.anch-deco{
+   font-size: 12px;
+   color: black;
+ 
+   background-image: linear-gradient(to right,#1e97dd,#62afe2);
+   text-decoration: none;
+   width: 3.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+   height: 0.7rem;
+   display: inline-block;
+   margin-left: 9rem;
+   margin-top: -15rem;
+  
+   text-align: center;
+   border-radius: 5px;
+ 
+ 
+}
+
+.anch-deco:hover{
+    color: white;
+}
+
+.demo{
+    background-color: #ef4444;
+    height: 1.25rem;
+    width: 3.225rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #fef8f8;
+    position: absolute;
+    z-index: 9;
+    right: 1rem;
+    top: 1.2rem;
+}
+
+
+
+
+
+.box {
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+
+
+  .box:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  }
+
+  .rounded-box {
+    width: 300px;
+    height: 200px;
+    border-radius: 15px; /* Rounded Corners */
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient Background */
+    border: 2px solid #333; /* Optional border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
